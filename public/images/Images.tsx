@@ -1,11 +1,9 @@
-import next from "./next.png";
-import TP from "./TP.png";
-import tailwind from "./tailwind.png";
-import mui from "./mui.png";
+import box from "./box.png";
+import avax from "./avax.png";
+import litecoin from "./litecoin.png";
 
 export default {
-    next,
-    TP,
-    tailwind,
-    mui
+    box,
+    avax,
+    litecoin
 }
