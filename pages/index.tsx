@@ -5,6 +5,7 @@ import Header from '../components/Header/index'
 import Hero from '../components/Hero/index'
 import Products from '../components/Products/index'
 import RoadMap from '../components/RoadMap/index'
+import Tokenomics from '../components/Tokenomics/index'
 const Home: NextPage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <Hero />
       <Products />
       <RoadMap />
+      <Tokenomics />
       </>
       
 
