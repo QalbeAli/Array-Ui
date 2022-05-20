@@ -54,7 +54,7 @@ export default function Hero() {
         <Grid container columnSpacing={4}>
           <Grid xs={12} sm={12} md={6} lg={6}>
             <div className='flex flex-col justify-center items-center'>
-              <div className=" flex  bg-gradient-to-br from-[#FF3E3D] to-[#466DFD] bg-clip-text pt-[4rem] text-[2rem] font-bold text-transparent ">
+              <div className=" ml-[4rem] flex  bg-gradient-to-br from-[#FF3E3D] to-[#466DFD] bg-clip-text pt-[4rem] text-[2rem] font-bold text-transparent ">
                 Bootstrap your innovations
               </div>
               <div className="text-xs text-white flex pl-6 pb-6">
@@ -70,7 +70,7 @@ export default function Hero() {
           </Grid>
 
           <Grid items xs={12} sm={12} md={6} lg={6}>
-            <div className='flex justify-center items-center'>
+            <div className=' ml-6 flex justify-center items-center'>
               <Image src={Images.video} />
             </div>
           </Grid>

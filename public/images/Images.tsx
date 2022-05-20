@@ -10,6 +10,9 @@ import audit from "./audit.png";
 import launch from "./launch.png";
 import listing from "./listing.png";
 import vesting from "./vesting.png";
+import line from "./line.png";
+import tick from "./tick.png";
+import rightarrow from "./rightarrow.png";
 
 export default {
     box,
@@ -24,5 +27,8 @@ export default {
     launch,
     listing,
     vesting,
+    line,
+    tick,
+    rightarrow,
 
 }
