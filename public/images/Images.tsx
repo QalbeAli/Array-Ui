@@ -13,6 +13,7 @@ import vesting from "./vesting.png";
 import line from "./line.png";
 import tick from "./tick.png";
 import rightarrow from "./rightarrow.png";
+import king from "./king.png";
 
 export default {
     box,
@@ -30,5 +31,6 @@ export default {
     line,
     tick,
     rightarrow,
+    king
 
 }
