@@ -3,15 +3,19 @@ import Head from 'next/head'
 // import Images from '../public/images/Images'
 import Header from '../components/Header/index'
 import Hero from '../components/Hero/index'
+import Products from '../components/Products/index'
+import RoadMap from '../components/RoadMap/index'
 const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>TS Project</title>
+        <title>Array</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <Hero />
+      <Products />
+      <RoadMap />
       </>
       
 
