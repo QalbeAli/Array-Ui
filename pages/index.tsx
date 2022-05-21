@@ -6,6 +6,9 @@ import Hero from '../components/Hero/index'
 import Products from '../components/Products/index'
 import RoadMap from '../components/RoadMap/index'
 import Tokenomics from '../components/Tokenomics/index'
+import Modal from '../components/Modal/index'
+import Team from '../components/Team/index'
+import Partners from '../components/Partners'
 const Home: NextPage = () => {
   return (
     <>
@@ -18,6 +21,9 @@ const Home: NextPage = () => {
       <Products />
       <RoadMap />
       <Tokenomics />
+      <Modal />
+      <Team />
+      <Partners />
       </>
       
 

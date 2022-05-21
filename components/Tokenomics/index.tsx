@@ -168,7 +168,7 @@ export default function Tokenomics() {
                     <div className="bg-[#1f2b4d] bg-gradient-to-br from-red-700 to-blue-600 bg-clip-text pt-2 text-xl font-semibold text-transparent">
                       Team Adisvors
                     </div>
-                    <div className="px-10 pt-3 text-white">0%</div>
+                    <div className=" flex justify-center items-center  pt-3 text-white">0%</div>
                     <div className="px-10 text-white">
                       12 months lockup, <br /> next 30 months subsequent linear
                       vesting
@@ -179,7 +179,7 @@ export default function Tokenomics() {
                     <div className="text-start bg-[#1f2b4d] bg-gradient-to-br from-red-700 to-blue-600 bg-clip-text pt-2 text-xl font-semibold text-transparent">
                       Treasury
                     </div>
-                    <div className="px-10 pt-3 text-white">5%</div>
+                    <div className=" flex justify-center items-center pt-3 text-white">5%</div>
                     <div className="px-10 text-white">
                       6 months cliff & subsequent, 36 months <br /> linear
                       vesting
@@ -190,7 +190,7 @@ export default function Tokenomics() {
                     <div className="text-start bg-[#1f2b4d] bg-gradient-to-br from-red-700 to-blue-600 bg-clip-text pt-2 text-xl font-semibold text-transparent">
                       Private Sale
                     </div>
-                    <div className="px-10 pt-3 text-white">10%</div>
+                    <div className=" flex justify-center items-center px-10 pt-3 text-white">10%</div>
                     <div className="px-10 text-white">
                       3 months lockup, <br /> next 30 months subsequent linear
                       vesting

@@ -20,6 +20,7 @@ export default function Hero() {
           backgroundImage: `url(images/hero.png)`,
           backgroundPosition: 'center',
           minHeight: '600px',
+          backgroundRepeat:"no-repeat"
         }}
       >
         <div className=" px-4 block  md:flex items-center justify-center space-x-4">
