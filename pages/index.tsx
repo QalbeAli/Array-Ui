@@ -9,6 +9,7 @@ import Tokenomics from '../components/Tokenomics/index'
 import Modal from '../components/Modal/index'
 import Team from '../components/Team/index'
 import Partners from '../components/Partners'
+import Faqs from '../components/Faqs'
 const Home: NextPage = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <Modal />
       <Team />
       <Partners />
+      <Faqs />
       </>
       
 
