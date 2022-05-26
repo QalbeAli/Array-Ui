@@ -12,7 +12,7 @@ export default function Tokenomics() {
           <div className="text-3xl font-bold text-white">The Tokenomics</div>
         </div>
         <Grid container className="py-10  ">
-          <Grid items xs={12} sm={12} md={4} lg={4} className="pt-4">
+          <Grid item xs={12} sm={12} md={4} lg={4} className="pt-4">
             <div className="  rounded-xl bg-[#0d1324]">
               <div className=" py-4 text-center text-2xl font-bold text-white">
                 Token Distribution
@@ -139,7 +139,7 @@ export default function Tokenomics() {
               </div>
               {/* ----------------- */}
               <div className="pb-2">
-                <div className=" mx-4 my-4 mb-4 flex items-center justify-center rounded-md bg-red-500 bg-gradient-to-r from-[#7d3e3d] to-[#4a61b5] py-2">
+                <div className=" mx-4 my-4 mb-4 flex item-center justify-center rounded-md bg-red-500 bg-gradient-to-r from-[#7d3e3d] to-[#4a61b5] py-2">
                   <div>
                     <Image src={Images.king} alt="image" />
                   </div>
@@ -152,7 +152,7 @@ export default function Tokenomics() {
 
           {/* --------------------------------------------------------------------- */}
 
-          <Grid items xs={12} md={8}>
+          <Grid item xs={12} md={8}>
             <Container>
               <div className=" mx-4 my-4 rounded-lg bg-[#0d1324]">
                 <div className="p-3 text-center text-3xl font-bold text-white">
@@ -168,7 +168,7 @@ export default function Tokenomics() {
                     <div className="bg-[#1f2b4d] bg-gradient-to-br from-red-700 to-blue-600 bg-clip-text pt-2 text-xl font-semibold text-transparent">
                       Team Adisvors
                     </div>
-                    <div className=" flex justify-center items-center  pt-3 text-white">0%</div>
+                    <div className=" flex justify-center item-center  pt-3 text-white">0%</div>
                     <div className="px-10 text-white">
                       12 months lockup, <br /> next 30 months subsequent linear
                       vesting
@@ -179,7 +179,7 @@ export default function Tokenomics() {
                     <div className="text-start bg-[#1f2b4d] bg-gradient-to-br from-red-700 to-blue-600 bg-clip-text pt-2 text-xl font-semibold text-transparent">
                       Treasury
                     </div>
-                    <div className=" flex justify-center items-center pt-3 text-white">5%</div>
+                    <div className=" flex justify-center item-center pt-3 text-white">5%</div>
                     <div className="px-10 text-white">
                       6 months cliff & subsequent, 36 months <br /> linear
                       vesting
@@ -190,7 +190,7 @@ export default function Tokenomics() {
                     <div className="text-start bg-[#1f2b4d] bg-gradient-to-br from-red-700 to-blue-600 bg-clip-text pt-2 text-xl font-semibold text-transparent">
                       Private Sale
                     </div>
-                    <div className=" flex justify-center items-center px-10 pt-3 text-white">10%</div>
+                    <div className=" flex justify-center item-center px-10 pt-3 text-white">10%</div>
                     <div className="px-10 text-white">
                       3 months lockup, <br /> next 30 months subsequent linear
                       vesting
@@ -201,7 +201,7 @@ export default function Tokenomics() {
                     <div className="text-start bg-[#1f2b4d] bg-gradient-to-br from-red-700 to-blue-600 bg-clip-text pt-2 text-xl font-semibold text-transparent">
                       Public Sale
                     </div>
-                    <div className="flex items-center justify-center px-10 pt-3 text-white">
+                    <div className="flex item-center justify-center px-10 pt-3 text-white">
                       10%
                     </div>
                     <div className="px-10 text-white ">

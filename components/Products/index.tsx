@@ -21,7 +21,10 @@ export default function Product() {
 
       <Container>
         <Grid container>
-          <Grid items xs={12} sm={12} md={4} lg={4}>
+          <Grid item xs={12} sm={12} md={4} lg={4} sx={{
+            background:' radial-gradient(50% 50% at 50% 50%, rgba(255, 62, 61, 0.2) 0%, rgba(255, 62, 61, 0) 100%)',
+            mixBlendMode: 'screen'
+          }}>
             <div className="m-4 rounded-xl bg-[#0d1324]">
               <div className="flex ">
                 <div className="p-3">
@@ -39,7 +42,7 @@ export default function Product() {
             </div>
           </Grid>
 
-          <Grid items xs={12} sm={12} md={4} lg={4}>
+          <Grid item xs={12} sm={12} md={4} lg={4}>
             <div className="m-4 rounded-xl bg-[#0d1324]">
               <div className="flex ">
                 <div className="p-3">
@@ -57,7 +60,7 @@ export default function Product() {
             </div>
           </Grid>
 
-          <Grid items xs={12} sm={12} md={4} lg={4}>
+          <Grid item xs={12} sm={12} md={4} lg={4}>
             <div className="m-4 rounded-xl bg-[#0d1324]">
               <div className="flex ">
                 <div className="p-3">
@@ -79,7 +82,7 @@ export default function Product() {
 
         <Container>
           <Grid container>
-            <Grid items xs={12} sm={12} md={4} lg={4}>
+            <Grid item xs={12} sm={12} md={4} lg={4}>
               <div className=" m-4 rounded-xl bg-[#0d1324]">
                 <div className="flex ">
                   <div className="p-3">
@@ -97,7 +100,7 @@ export default function Product() {
               </div>
             </Grid>
 
-            <Grid items xs={12} sm={12} md={4} lg={4}>
+            <Grid item xs={12} sm={12} md={4} lg={4}>
             <div className=" m-4 rounded-xl bg-[#0d1324]">
                 <div className="flex ">
                   <div className="p-3">
@@ -114,7 +117,7 @@ export default function Product() {
                 </div>
               </div>
             </Grid>
-            <Grid items xs={12} sm={12} md={4} lg={4}>
+            <Grid item xs={12} sm={12} md={4} lg={4}>
             <div className=" m-4 rounded-xl bg-[#0d1324]">
                 <div className="flex ">
                   <div className="p-3">

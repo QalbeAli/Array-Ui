@@ -27,6 +27,22 @@ import p5 from "./p5.png";
 import p6 from "./p6.png";
 import p7 from "./p7.png";
 import p8 from "./p8.png";
+import auction from "./auction.png";
+import nft from "./nft.png";
+import blockchain from "./blockchain.png";
+import tiresystem1 from "./tiresystem1.png";
+import tiresystem2 from "./tiresystem2.png";
+import tiresystem3 from "./tiresystem3.png";
+import tiresystem4 from "./tiresystem4.png";
+import books from "./books.png";
+import line2 from "./line2.png";
+import graph from "./graph.png";
+import candle1 from "./candle1.png";
+import candle2 from "./candle2.png";
+import ava1 from "./ava1.png";
+import setting from "./setting.png";
+import r1 from "./r1.png";
+import rl from "./rl.png";
 
 
 export default {
@@ -59,4 +75,20 @@ export default {
     p6,
     p7,
     p8,
+    auction,
+    nft,
+    blockchain,
+    tiresystem1,
+    tiresystem2,
+    tiresystem3,
+    tiresystem4,
+    books,
+    line2,
+    graph,
+    candle1,
+    candle2,
+    ava1,
+    setting,
+    r1,
+    rl
 }

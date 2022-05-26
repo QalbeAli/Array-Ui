@@ -10,6 +10,7 @@ import Modal from '../components/Modal/index'
 import Team from '../components/Team/index'
 import Partners from '../components/Partners'
 import Faqs from '../components/Faqs'
+import LiveAuction from '../components/LiveAuction'
 const Home: NextPage = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
       <Team />
       <Partners />
       <Faqs />
+      <LiveAuction />
       </>
       
 
